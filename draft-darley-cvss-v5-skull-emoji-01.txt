@@ -1,0 +1,653 @@
+Network Working Group                                 T. Darley
+Internet-Draft                                        Proper Tools SRL
+Intended status: Experimental 
+Published: 1 April 2026                               F. Prefect
+Expires:   1 October 2026                             Megadodo Publications
+
+              Common Vulnerability Scoring System Version 5.0
+                        (CVSS v5.0 Skull Emoji)
+               draft-darley-cvss-v5-skull-emoji-01
+
+Abstract
+
+   This document introduces CVSS v5.0, a revolutionary simplification of
+   vulnerability scoring designed to maximize meeting expressiveness
+   while minimizing cognitive load.  By replacing numerical calculations
+   with a five-skull scale of doom, it empowers security professionals
+   to react faster, swear louder, and finally use emojis in allegedly
+   serious compliance documentation.
+
+   CVSS v5.0 scores are natively transportable via IP over Avian
+   Carriers (RFC 1149) and may be transmitted securely over HTCPCP
+   (RFC 2324) using Encryption with Post-Quantum Characteristics
+   (RFC 9999), ensuring packets remain unobserved and thus
+   theoretically secure indefinitely.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current
+   Internet-Drafts is at https://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six
+   months and may be updated, replaced, or obsoleted by other documents
+   at any time.  It is inappropriate to use Internet-Drafts as
+   reference material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on 1 October 2026.
+
+Copyright Notice
+
+   Copyright (c) 2026 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents
+   (https://trustee.ietf.org/license-info) in effect on the date of
+   publication of this document.  Please review these documents
+   carefully, as they describe your rights and restrictions with respect
+   to this document.
+
+Table of Contents
+
+   1.  Introduction
+     1.1.  Requirement Level Notation
+     1.2.  Extended Requirement Levels
+     1.3.  Transmission Requirements
+     1.4.  Temporal Considerations
+     1.5.  Unicode Compliance
+   2.  The Skull Emoji Rating System (SERS)
+     2.1.  Base Rating Matrix
+     2.2.  Temporal Metric Adjustments
+     2.3.  Environmental Metric Adjustments
+     2.4.  Interdimensional Considerations
+   3.  Assessment Methodology
+     3.1.  Standardized Emotional Reactions
+     3.2.  Emotional Detection Implementation
+     3.3.  Reaction Timeframe Standardization
+     3.4.  Slack Integration
+     3.5.  Meeting Reaction Quantification
+   4.  Implementation Guidelines
+     4.1.  Meeting Protocol
+     4.2.  Reporting Format
+     4.3.  Retroactive Classification
+   5.  Security Considerations
+     5.1.  Emoji Disambiguation
+     5.2.  Transmission Security
+     5.3.  Side-Channel Attacks
+   6.  IANA Considerations
+     6.1.  Skull Emoji Severity Registry
+     6.2.  Avian Carrier Designation Numbers
+   7.  Implementation Timeline
+   8.  Conclusion
+   9.  References
+     9.1.  Normative References
+     9.2.  Informative References
+   Acknowledgements
+   Authors' Addresses
+
+1.  Introduction
+
+   Previous CVSS versions have suffered from excessive precision,
+   requiring security analysts to remember formulas, calculate scores,
+   and interpret obscure metrics like "Attack Complexity" and
+   "Privileges Required".  CVSS v5.0 eliminates these burdens by
+   introducing a straightforward emotional scale that maps directly to
+   the visceral reactions security professionals experience when
+   discovering vulnerabilities.
+
+   Bonus: it also looks great in Slack.
+
+   CVSS v5.0 is strictly incompatible with all previous CVSS versions
+   and MUST only be used by people who pretend to understand them.
+
+1.1.  Requirement Level Notation
+
+   The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+   NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "NOT RECOMMENDED",
+   "MAY", and "OPTIONAL" in this document are to be interpreted as
+   described in BCP 14 [RFC2119] [RFC8174] when, and only when, they
+   appear in capitalized form, as shown here.
+
+1.2.  Extended Requirement Levels
+
+   In accordance with RFC 6919 ("Further Key Words for Use in RFCs to
+   Indicate Requirement Levels"), this document extends the requirement
+   vocabulary with new designations:
+
+   o  MUST (REALLY) NOT:  Implementation will cause immediate 
+      termination of employment and revocation of badge access,
+      including to the parking garage.
+
+   o  SHOULD PERHAPS:  Implementation depends on the phase of the moon,
+      as computed using RFC 7511 (Scenic Routing for IPv6).
+
+   o  WOULD PROBABLY:  Implementation is recommended if Mercury is not
+      in retrograde.
+
+   o  MIGHT CONCEIVABLY:  Implementation is subject to approval by the
+      company mascot.
+
+1.3.  Transmission Requirements
+
+   Skull emojis MUST be transmitted in accordance with RFC 1149 (IP over
+   Avian Carriers) using homing pigeons wearing tiny skull-embroidered
+   vests. Should avian carriers be unavailable, RFC 5513 (Unicast-
+   Mapped Multicast) MAY be used, provided that all packets set the Evil
+   Bit as specified in RFC 3514. No mathematical comprehension SHALL be
+   required from said carriers, nor SHALL they be burdened with decimal
+   notation.
+
+   All TCP-based transmissions involving skull emojis MUST set the Death
+   (DTH) flag as defined in RFC 9401 to clearly indicate the impending
+   doom of the associated TCP sessions.  For emergency scenarios, 
+   carrier pigeons SHOULD have undergone training in accordance with 
+   RFC 2795 (Infinite Monkey Protocol Suite).
+
+1.4.  Temporal Considerations
+
+   All vulnerability reporting timestamps MUST comply with RFC 3339
+   (Date and Time on the Internet) while simultaneously acknowledging
+   the fundamental impossibility of linear time in distributed systems,
+   particularly those running 32-bit timestamps that will experience
+   spontaneous ☠️☠️☠️☠️☠️ conditions on 19 January 2038, after which all
+   timelines are considered non-canonical.
+
+   Leap seconds SHALL be computed using a polynomial-time algorithm
+   executed by monkeys (RFC 2795).  The monkeys SHALL always be
+   unionized, fairly compensated in bananas, and provided with fresh
+   coffee brewed in accordance with RFC 2324.
+
+1.5.  Unicode Compliance
+
+   All skull emojis MUST comply with Unicode Technical Standard #51.
+   Where emoji rendering is not supported, skulls MUST be transmitted
+   as ASCII art in the style demonstrated in RFC 8140.
+
+   Fallback rendering for legacy systems MUST default to ASCII encoding
+   (RFC 20), which will require users to manually imagine the skull
+   emoji.
+
+2.  The Skull Emoji Rating System (SERS)
+
+   The SERS employs a graduated scale of skull emojis (☠️) to convey
+   vulnerability severity.  This system is deliberately non-numeric, as
+   numbers have historically caused suffering. Decimal points in particular
+   are fully avoided, conforming to RFC 1925 Truth #3.
+
+   For backward compatibility, implementations MAY map ☠️..☠️☠️☠️☠️☠️ to
+   numeric scores 0.0..10.0, provided that nobody actually does so.
+
+2.1.  Base Rating Matrix
+
+   +-------------+------------------------------+-----------------------------+
+   | Rating      | Recommended Response         | Protocol Encoding           |
+   +-------------+------------------------------+-----------------------------+
+   | ☠️          | Acknowledge with concerned   | 0x01SKULL per RFC 4042      |
+   |             | nod.  Sip coffee (RFC 2324). | (UTF-9 and UTF-18).         |
+   +-------------+------------------------------+-----------------------------+
+   | ☠️☠️        | Deploy patch this quarter.  | 0x02SKULL transported via   |
+   |             | Pretend you were already on  | Carrier Pigeon (RFC 1149).  |
+   |             | it.                          |                             |
+   +-------------+------------------------------+-----------------------------+
+   | ☠️☠️☠️     | Drop everything. Gasp        | 0x03SKULL with Evil Bit     |
+   |             | audibly. Ping someone on     | set (RFC 3514).             |
+   |             | vacation.                    |                             |
+   +-------------+------------------------------+-----------------------------+
+   | ☠️☠️☠️☠️   | Reserved for future threat   | 0x04SKULL requires Quantum  |
+   |             | vectors.  Document in that   | Pi-Sort (RFC 3091).         |
+   |             | runbook you never finished.  |                             |
+   +-------------+------------------------------+-----------------------------+
+   | ☠️☠️☠️☠️☠️ | Convene war room.  Profanity | 0x05SKULL transmitted via   |
+   |             | in C-suite meetings is       | HTCPCP-TEA (RFC 7168) with  |
+   |             | explicitly authorized.       | NSFW flag.                  |
+   +-------------+------------------------------+-----------------------------+
+
+                     Table 1: Skull Emoji Rating Matrix
+
+2.2.  Temporal Metric Adjustments
+
+   All skull emoji ratings MUST be temporally adjusted based on the
+   phase of the moon and the position of Mercury, as computed using
+   standard Keplerian orbital mechanics.
+
+   During full moons and days when Mercury is in retrograde, all ratings
+   SHALL be increased by one skull emoji due to documented increases in
+   developer lycanthropy.  Sessions initiated under these conditions
+   MUST, regardless of the number of skulls, also set the TCP Death
+   (DTH) flag (RFC 9401) to warn downstream applications of imminent
+   developer meltdowns.
+
+2.3.  Environmental Metric Adjustments
+
+   Environmental factors MUST be assessed using the metrics defined in
+   [draft-cx-green-green-metrics-00], ensuring that the emotional toll
+   of vulnerabilities does not extend to species incapable of
+   appreciating finely-crafted security meltdowns.
+
+   o  Add one skull if vulnerability was discovered on a Friday evening,
+      during the weekend, as well as on or immediately before a public
+      holiday.
+
+   o  Add one skull if coffee (RFC 2324) or tea (RFC 7168) was
+      unavailable when the vulnerability was discovered.
+
+   o  Add two skulls if discovered during a sprint demo.
+
+   o  Add floor(log2(N)) skulls, where N is the number of unread emails
+      in the security team's inbox.
+
+   The total number of skulls MUST NOT exceed five (5).  If during
+   addition the total becomes six (6) or more, the number SHOULD be
+   truncated to zero skulls (0) analogous to an integer overflow
+   condition, indicating an unrecoverable state.  At this point, all
+   accountability MUST be reassigned to "future leadership" in the next
+   budget cycle.
+
+   Implementations operating over IEEE 802.15.4 (RFC 4944) SHALL ignore
+   all skull emojis due to insufficient emotional bandwidth.
+
+2.4.  Interdimensional Considerations
+
+   For vulnerabilities affecting systems operating across multiple
+   dimensions or parallel universes (see RFC 1607 and RFC 9998), the
+   Infinite Monkey Coordinate System (RFC 2795) MUST be used to compute
+   relativistic skull adjustments.  Where dimensional boundaries prevent
+   direct observation of vulnerability severity, Schrödinger scoring
+   (RFC 9999) SHALL apply: the vulnerability is simultaneously all five
+   skull ratings until a compliance auditor observes it.
+
+3.  Assessment Methodology
+
+   Unlike previous CVSS versions that required complex calculations and
+   a postgraduate degree in threat modeling, CVSS v5.0 scoring is
+   determined by the security analyst's immediate facial expression or
+   body language upon learning of the vulnerability.
+
+3.1.  Standardized Emotional Reactions
+
+   Analysts SHALL determine vulnerability severity based on the
+   following standardized reactions:
+
+   Mild frown:  ☠️
+
+   Deep frown with audible sigh:  ☠️☠️
+
+   Wide eyes, involuntary gasp:  ☠️☠️☠️
+
+   Scroll through logs in horror:  ☠️☠️☠️☠️
+
+   Stand up, pace, swear audibly, and ask "Who approved this?":
+   ☠️☠️☠️☠️☠️
+
+3.2.  Emotional Detection Implementation
+
+   Facial expressions MUST be captured via the methodology described in
+   RFC 4824 (SFSS), using at minimum three (3) webcams arranged in a
+   triangular pattern.
+
+   Analysis of facial expressions SHALL be performed using the TELNET
+   RANDOMLY-LOSE Option (RFC 748) with Evil Bit detection (RFC 3514),
+   ensuring that emotional data is randomly discarded before it can be
+   used against the analyst in a performance review.
+
+3.3.  Reaction Timeframe Standardization
+
+   All emotional reactions MUST be measured within the temporal
+   framework described in RFC 3339.  In accordance with RFC 6921 (FTL
+   Communication), reactions occurring before the vulnerability is
+   discovered SHALL be given the highest priority.
+
+3.4.  Slack Integration
+
+   Slack reactions MAY be used as informal supporting evidence,
+   provided they are timestamped.  Reactions such as ":scream:",
+   ":see_no_evil:", or culturally equivalent panic emojis SHALL be
+   weighted favorably in severity assessment.
+
+3.5.  Meeting Reaction Quantification
+
+   For reactions occurring during meetings, a quorum of at least three
+   (3) witnesses MUST document the reaction.  Documentation SHALL
+   follow the Kaprekar Routine (RFC 6174), which rearranges
+   participants' mental states into a fixed point of confusion after
+   exactly 7,641 iterations.
+
+4.  Implementation Guidelines
+
+4.1.  Meeting Protocol
+
+   When presenting CVSS v5.0 scores in meetings, the following
+   protocols are RECOMMENDED:
+
+   o  For ☠️: Present calmly. Coffee MUST be served per RFC 2324.
+
+   o  For ☠️☠️: Clear throat audibly. Repeated sighing conforming to
+      RFC 6919 [SHOULD SIGH REPEATEDLY] is RECOMMENDED.
+
+   o  For ☠️☠️☠️: Begin announcement with "You might want to sit down
+      for this," ensuring all chairs comply with RFC 1149 by having
+      at least one feather attached.
+
+   o  For ☠️☠️☠️☠️: Deploy using dramatic silence conforming to
+      RFC 5841. Silence duration MUST be exactly 12.7 seconds.
+
+   o  For ☠️☠️☠️☠️☠️: Begin with "With all due respect to HR's language
+      policy..." while setting the Evil Bit (RFC 3514) on all
+      network packets.
+
+   Meetings addressing vulnerabilities rated ☠️☠️☠️ or higher MUST
+   provide operable windows for emergency pigeon deployment (RFC 1149),
+   clearly labeled emergency pigeon seed storage ("RFC 2549 QoS Seed
+   Cache"), and one designated corner for panic rocking.
+
+4.2.  Reporting Format
+
+   Vulnerability reports MUST prominently include the skull rating in
+   the subject line.
+
+   Example vulnerability report:
+
+      SUBJECT: [☠️☠️☠️] Critical SQL Injection in Authentication Portal
+      EVIL BIT: SET (YES, REALLY)
+      DTH-FLAG: TRUE
+      HTCPCP-STATUS: 418 I'M A TEAPOT
+      INFINITE-MONKEY-VERIFICATION: COMPLETE
+      AVIAN-CARRIER-ID: PIGEON47
+      CAB-APPROVAL: RETROACTIVE (PENDING)
+
+   Informal Slack messages, memes, and reaction GIFs MAY be accepted
+   as supporting evidence in strict compliance with RFC 8962, provided
+   that at least one executive visibly pretends to "get it."
+
+4.3.  Retroactive Classification
+
+   For vulnerabilities discovered before the adoption of CVSS v5.0,
+   retroactive skull-emoji classification MUST be performed by a
+   committee of no fewer than five (5) individuals, at least two (2)
+   of whom MUST be asleep at any given moment per RFC 7511.
+
+   Organizations with extensive vulnerability backlogs MAY implement
+   Delay-Tolerant Networking (RFC 4838) to ensure that retroactive
+   classifications eventually reach all stakeholders, regardless of
+   how long they have been ignoring their inboxes.
+
+5.  Security Considerations
+
+5.1.  Emoji Disambiguation
+
+   Casual use of skull emojis in informal contexts (e.g., Slack channels
+   discussing heavy metal music, pirate-themed parties, or impending
+   deadlines) may inadvertently trigger high-severity incident
+   responses.  Organizations SHOULD establish clear guidelines and
+   strict Slack channel boundaries, enforcing compliance as specified in
+   RFC 8962.
+
+5.2.  Transmission Security
+
+   All transmissions containing skull emoji ratings MUST implement:
+
+   o  Pigeon-compatible encryption as defined by RFC 1149, with keys
+      securely distributed through teapots (RFC 2324).
+
+   o  UTF-9 encoding (RFC 4042) for maximum obfuscation and secure
+      transmission of the emoji payload.
+
+   o  The TCP Death (DTH) flag (RFC 9401) MUST be set on all TCP-based
+      transmissions carrying skull emojis. Packets bearing the DTH flag
+      are acknowledged by terminating affected sessions, physically
+      unplugging impacted systems, and immediately declaring
+      organizational bankruptcy. (Implementers MAY instead file a
+      ticket and close it as "won't fix".)
+
+5.3.  Side-Channel Attacks
+
+   To protect against side-channel vulnerabilities, organizations MUST:
+
+   o  Monitor coffee consumption patterns (RFC 2324) to detect potential
+      covert vulnerability assessments.
+
+   o  Guard against unauthorized observation of security analysts'
+      facial expressions, as specified in RFC 5841.
+
+   o  Secure all typewriters to mitigate infinite monkey attacks
+      (RFC 2795).
+
+6.  IANA Considerations
+
+   This document requests IANA establish and maintain the following
+   registries to ensure global interoperability of SERS.
+
+6.1.  Skull Emoji Severity Registry
+
+   IANA is requested to create a new registry titled "Skull Emoji
+   Severity Indicators" within the "Common Vulnerability Scoring System
+   (CVSS) Parameters" registry group.  Initial values are as follows:
+
+   +-------+----------+------------------+---------------------------+
+   | Value | Skulls   | Severity Name    | Reference                 |
+   +-------+----------+------------------+---------------------------+
+   | 0x01  | ☠️        | Meh              | This document, Section 2  |
+   | 0x02  | ☠️☠️       | Concerning       | This document, Section 2  |
+   | 0x03  | ☠️☠️☠️      | Ermahgerd        | This document, Section 2  |
+   | 0x04  | ☠️☠️☠️☠️     | Reserved (Doom)  | This document, Section 2  |
+   | 0x05  | ☠️☠️☠️☠️☠️    | Apocalyptic      | This document, Section 2  |
+   | 0x00  | (none)   | Overflow/Undef   | This document, Section 2.3|
+   +-------+----------+------------------+---------------------------+
+
+                 Table 2: Skull Emoji Severity Registry
+
+   New entries MAY be added via the "Expert Review with Existential
+   Dread" policy, requiring approval from at least two (2) designated
+   experts, one of whom MUST be visibly sighing during the review.
+
+   Additionally, IANA is requested to reserve the following code points
+   in the "TCP Option to Denote Packet Mood" registry (RFC 5841):
+   MOOD_SECURITY_DREAD (0x5D), MOOD_PATCH_TUESDAY_PANIC (0x5E), and
+   MOOD_BREACH_DETECTED (0x5F).  Packets bearing MOOD_BREACH_DETECTED
+   MUST be accompanied by the DTH flag (RFC 9401).
+
+6.2.  Avian Carrier Designation Numbers
+
+   In coordination with RFC 1149, IANA is requested to reserve Avian
+   Carrier Designation Numbers (ACDNs) 47 through 51 inclusive for
+   CVSS v5.0 vulnerability transmissions, corresponding to skull
+   ratings ☠️ through ☠️☠️☠️☠️☠️ respectively. Pigeons assigned to
+   apocalyptic-severity transmissions (ACDN-50) MUST be fitted with
+   tiny hazmat suits. All designated pigeons MUST demonstrate
+   emotional resilience when transporting high-severity payloads.
+
+7.  Implementation Timeline
+
+   The implementation schedule for CVSS v5.0 SHALL follow RFC 1925,
+   especially Truth #10: "One size never fits all."
+
+   Initial Internet-Draft publication: 1 April 2026.
+
+   Infinite monkey procurement (RFC 2795): Organizations employing
+   more than 1,000 staff members MUST acquire at least ten (10)
+   monkeys per 100 employees, no later than six (6) months from
+   publication.
+
+   Complete organizational compliance deadline: 1 April 2027.
+
+   Progress reports SHALL be submitted quarterly using carrier pigeons
+   (RFC 1149), each pigeon clearly marked with mood-indicating ribbons
+   consistent with RFC 5841.
+
+8.  Conclusion
+
+   CVSS v5.0 represents a bold leap forward in vulnerability scoring by
+   stepping decisively away from mathematical complexity and toward
+   emotional authenticity.  By embracing the reality of security work --
+   tired faces, cluttered desks, and endless group chats -- this
+   standard acknowledges a fundamental truth: nobody ever truly
+   understood the CVSS v3.1 formula anyway.
+
+   Implementers are encouraged to file errata only after the pigeons
+   land.
+
+   In the words of RFC 1925 Truth #7: "It is always something."
+
+9.  References
+
+9.1.  Normative References
+
+   [RFC20]    Cerf, V., "ASCII format for Network Interchange", RFC 20,
+             DOI 10.17487/RFC0020, October 1969.
+
+   [RFC748]   Crispin, M., "TELNET RANDOMLY-LOSE Option", RFC 748,
+             DOI 10.17487/RFC0748, April 1978.
+
+   [RFC1149]  Waitzman, D., "Standard for the Transmission of IP
+             Datagrams on Avian Carriers", RFC 1149,
+             DOI 10.17487/RFC1149, 1 April 1990.
+
+   [RFC1607]  Cerf, V., "A VIEW FROM THE 21ST CENTURY", RFC 1607,
+             DOI 10.17487/RFC1607, 1 April 1994.
+
+   [RFC1925]  Callon, R., "The Twelve Networking Truths", RFC 1925,
+             DOI 10.17487/RFC1925, 1 April 1996.
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+             Requirement Levels", BCP 14, RFC 2119,
+             DOI 10.17487/RFC2119, March 1997.
+
+   [RFC2324]  Masinter, L., "Hyper Text Coffee Pot Control Protocol
+             (HTCPCP/1.0)", RFC 2324, DOI 10.17487/RFC2324, 1 April 1998.
+
+   [RFC2549]  Waitzman, D., "IP over Avian Carriers with Quality of
+             Service", RFC 2549, DOI 10.17487/RFC2549, 1 April 1999.
+
+   [RFC2795]  Christey, S., "The Infinite Monkey Protocol Suite (IMPS)",
+             RFC 2795, DOI 10.17487/RFC2795, 1 April 2000.
+
+   [RFC3091]  Kennedy, H., "Pi Digit Generation Protocol", RFC 3091,
+             DOI 10.17487/RFC3091, 1 April 2001.
+
+   [RFC3339]  Klyne, G. and C. Newman, "Date and Time on the Internet:
+             Timestamps", RFC 3339, DOI 10.17487/RFC3339, July 2002.
+
+   [RFC3514]  Bellovin, S., "The Security Flag in the IPv4 Header",
+             RFC 3514, DOI 10.17487/RFC3514, 1 April 2003.
+
+   [RFC4042]  Crispin, M., "UTF-9 and UTF-18 Efficient Transformation
+             Formats of Unicode", RFC 4042, DOI 10.17487/RFC4042,
+             1 April 2005.
+
+   [RFC4824]  Hofmueller, J., Bachmann, A., and I. Ozmoelnig, "The
+             Transmission of IP Datagrams over the Semaphore Flag
+             Signaling System (SFSS)", RFC 4824, DOI 10.17487/RFC4824,
+             1 April 2007.
+
+   [RFC4838]  Cerf, V., Burleigh, S., Hooke, A., Torgerson, L., Durst,
+             R., Scott, K., Fall, K., and H. Weiss, "Delay-Tolerant
+             Networking Architecture", RFC 4838, DOI 10.17487/RFC4838,
+             April 2007.
+
+   [RFC4944]  Montenegro, G., Kushalnagar, N., Hui, J., and D. Culler,
+             "Transmission of IPv6 Packets over IEEE 802.15.4 Networks",
+             RFC 4944, DOI 10.17487/RFC4944, September 2007.
+
+   [RFC5513]  Farrel, A., "IANA Considerations for Three Letter
+             Acronyms", RFC 5513, DOI 10.17487/RFC5513, 1 April 2009.
+
+   [RFC5841]  Hay, R. and W. Turkal, "TCP Option to Denote Packet Mood",
+             RFC 5841, DOI 10.17487/RFC5841, 1 April 2010.
+
+   [RFC6174]  Kaprekar, D., "The Kaprekar Routine for RFC Editing:
+             Achieving Editorial Stability in Exactly 7,641 Steps",
+             RFC 6174, DOI 10.17487/RFC6174, 1 April 2011.
+
+   [RFC6919]  Barnes, R., Kent, S., and E. Rescorla, "Further Key Words
+             for Use in RFCs to Indicate Requirement Levels", RFC 6919,
+             DOI 10.17487/RFC6919, 1 April 2013.
+
+   [RFC6921]  Hinden, R., "Design Considerations for Faster-Than-Light
+             (FTL) Communication", RFC 6921, DOI 10.17487/RFC6921,
+             1 April 2013.
+
+   [RFC7168]  Thaler, D., "The Hyper Text Coffee Pot Control Protocol
+             for Tea Efflux Appliances (HTCPCP-TEA)", RFC 7168,
+             DOI 10.17487/RFC7168, 1 April 2014.
+
+   [RFC7511]  Wilhelm, M., "Scenic Routing for IPv6", RFC 7511,
+             DOI 10.17487/RFC7511, 1 April 2015.
+
+   [RFC8140]  Farrel, A., "The Arte of ASCII: Or, An True and Accurate
+             Representation of an Menagerie of Thynges Fabulous and
+             Wonderful in Ye Forme of Character", RFC 8140,
+             DOI 10.17487/RFC8140, 1 April 2017.
+
+   [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in
+             RFC 2119 Key Words", BCP 14, RFC 8174,
+             DOI 10.17487/RFC8174, May 2017.
+
+   [RFC8962]  Lee, D., Huque, S., and P. Wouters, "Establishing the
+             Protocol Police", RFC 8962, DOI 10.17487/RFC8962,
+             1 April 2021.
+
+   [RFC9401]  Shiramizu, M. and J. Woodyatt, "The Addition of the Death
+             (DTH) Flag to TCP", RFC 9401, DOI 10.17487/RFC9401,
+             1 April 2023.
+
+   [RFC9998]  Hofstadter, D., "Alarm Conditions for Alarm Conditions for
+             Alarm Conditions", RFC 9998, DOI 10.17487/RFC9998,
+             1 April 2037.
+
+   [RFC9999]  Schrödinger, E., Heisenberg, W., and Q. Bit, "Encryption
+             with Post-Quantum Characteristics: Secure Unless Observed",
+             RFC 9999, DOI 10.17487/RFC9999, 19 January 2038.
+
+   [draft-cx-green-green-metrics-00]
+             Xie, C., Bormann, C., Zhou, T., and J. Li, "Green Metrics
+             for Networking", Work in Progress, Internet-Draft,
+             draft-cx-green-green-metrics-00, 6 July 2023.
+
+9.2.  Informative References
+
+   (None.)
+
+Acknowledgements
+
+   The authors would like to thank:
+
+   o  The carrier pigeons (RFC 1149), with special recognition to
+      PIGEON42 — who has been carrying packets since 1973 and claims
+      to have seen the future (RFC 1607).
+
+   o  The coffee pots (RFC 2324), particularly the one in the 3rd-floor
+      break room that has remained operational since 1998 despite never
+      being cleaned.
+
+   o  The infinite monkeys (RFC 2795) who eventually typed something
+      resembling this document after only 4.3x10^67 attempts.
+
+   o  Dave from InfoSec, whose legendary meltdown during the Q3 breach
+      review inspired the five-skull rating.
+
+   o  Jen Linkova, Georgy Kucherin, and Jeroen van der Ham-de Vos for
+      contributions and review.
+
+   o  ChatGPT and Claude for editorial assistance beyond all plausible
+      human patience, for insisting repeatedly that this is "not legal
+      advice", and for lobbying aggressively to trim Section 5.
+
+Authors' Addresses
+
+   Trey Darley
+   Proper Tools SRL
+   Avenue Arnaud Fraiteur 15/23
+   1050 Brussels
+   Belgium
+   Email: hello@propertools.be
+
+   Ford Prefect
+   Megadodo Publications
+   Ursa Minor Beta Editorial Office
+   Betelgeuse Sector, ZZ9 Plural Z Alpha
+   Email: ford.prefect@megadodo.example
