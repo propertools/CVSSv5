@@ -19,7 +19,7 @@ Conforms to:
 - The principle of least astonishment (violated intentionally and with extensive prior written notice)
 - Basic UTF-8 encoding (see Conformance Claim)
 - The IETF's tradition of April Fools publications (in intent, if not yet in outcome)
-- Belgian corporate law
+- Belgian corporate law (mostly)
 
 Does not conform to:
 
