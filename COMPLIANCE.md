@@ -25,7 +25,7 @@ Secondary risks:
 - No package manager
 - No transitive vulnerability inheritance
 - All vulnerabilities scored using the system defined in this document
-- All vulnerabilities rated ☠️☠️☠️☠️☠️ or above pending further review under new management. (Note: scores above ☠️☠️☠️☠️☠️ resolve to zero per Section 2.3. This is also pending review..)
+- All vulnerabilities rated ☠️☠️☠️☠️☠️ or above pending further review under new management. (Note: scores above ☠️☠️☠️☠️☠️ resolve to zero per Section 2.3. This is also pending review.)
 
 ## Vulnerability Management
 
