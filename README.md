@@ -1,4 +1,4 @@
-# CVSS v5.0 Skull Emoji 💀
+# CVSS v5.0 Skull Emoji ☠️☠️☠️☠️☠️
 
 **draft-darley-cvss-v5-skull-emoji-01**
 
@@ -85,7 +85,7 @@ The current draft acknowledges:
 - The carrier pigeons of RFC 1149, especially PIGEON42
 - The coffee pots of RFC 2324
 - The infinite monkeys of RFC 2795
-- Dave from InfoSec, whose legendary meltdown inspired the five-skull rating
+- Dave from InfoSec, whose legendary meltdown inspired the original five-skull rating
 - Ford Prefect of Megadodo Publications, Ursa Minor Beta, for co-authorship
 - ChatGPT and Claude, for editorial assistance and for lobbying to trim Section 5
 
