@@ -1,4 +1,8 @@
-# CVSS v5.0 Skull Emoji ☠️☠️☠️☠️☠️
+# CVSS v5.0 ☠️☠️☠️☠️☠️
+
+Consensus-Validated Suffering System
+
+"Now with fewer decimals, more existential dread"
 
 **draft-darley-cvss-v5-skull-emoji-01**
 
