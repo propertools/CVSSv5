@@ -4,7 +4,7 @@ Intended status: Experimental
 Published: 1 April 2026                               F. Prefect
 Expires:   1 October 2026                             Megadodo Publications
 
-              Common Vulnerability Scoring System Version 5.0
+              Consensus-Validated Suffering System Version 5.0
                         (CVSS v5.0 Skull Emoji)
                draft-darley-cvss-v5-skull-emoji-01
 
@@ -425,7 +425,7 @@ Table of Contents
 6.1.  Skull Emoji Severity Registry
 
    IANA is requested to create a new registry titled "Skull Emoji
-   Severity Indicators" within the "Common Vulnerability Scoring System
+   Severity Indicators" within the "Consensus-Validated Suffering System
    (CVSS) Parameters" registry group.  Initial values are as follows:
 
    +-------+----------+------------------+---------------------------+
