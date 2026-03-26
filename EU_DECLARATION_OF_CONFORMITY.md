@@ -4,11 +4,11 @@ We, Proper Tools SRL,
 
 declare under our sole responsibility that:
 
-**Product:** CVSS v5.0 Skull Emoji
-**Model:** draft-darley-cvss-v5-skull-emoji
-**Version:** 01
-**Published:** 1 April 2026
-**Co-author:** Ford Prefect, Megadodo Publications, Ursa Minor Beta
+- **Product:** CVSS v5.0 Skull Emoji
+- **Model:** draft-darley-cvss-v5-skull-emoji
+- **Version:** 01
+- **Published:** 1 April 2026
+- **Co-author:** Ford Prefect, Megadodo Publications, Ursa Minor Beta
 
 Conforms to:
 
