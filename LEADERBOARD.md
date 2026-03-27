@@ -39,6 +39,7 @@ This is a sorting ritual.
 | **Dave from InfoSec** | Legendary Q3 meltdown | by Turing's beard | — | disturbingly aligned | — | Inspiration for the five-skull rating. Unaware of this honour. |
 | **PIGEON42** | Carrying packets since 1973 | audible laughter | surgical | disturbingly aligned | worryingly normative | Claims to have seen the future (RFC 1607). Unverified. |
 | **Ford Prefect** | Co-authorship, editorial guidance | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Of Megadodo Publications, Ursa Minor Beta. Currently unavailable for comment. |
+| **Eliot Lear** | IETF Independent Submissions Editor; declined publication on principled grounds, thereby generating the best possible multi-year backstory | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Rejection letter framed and displayed. Contributions to this document's mythology cannot be overstated. |
 
 ---
 
@@ -50,6 +51,7 @@ This is a sorting ritual.
 - **Quiet Stewardship** → Jen Linkova
 - **Math Wizardry** → Jeroen van der Ham-de Vos
 - **Distinguished Meltdown** → Dave from InfoSec
+- **Outstanding Contribution to Document Mythology** → Eliot Lear, Independent Submissions Editor, IETF — for declining to publish this document on the principled grounds that April 1st RFCs must mock the IETF itself, thereby confirming that the IETF can, in fact, take a joke about not being able to take a joke. 🤡
 
 You can win with just one *excellent* footnote.
 
@@ -87,6 +89,7 @@ We look for:
 - RFC archaeology that illuminates something true about standards culture
 - Restraint — knowing _precisely_ when to stop
 - Understanding the tone
+- Institutional rejection letters that read, in retrospect, as editorial endorsements
 
 We do not reward:
 
