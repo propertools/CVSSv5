@@ -81,5 +81,6 @@ is reassigned to future leadership.
 | CVE-2026-PIGEON | PIGEON42 unverified | ☠️☠️ | Monitoring |
 | CVE-2026-SECTION5 | Section 5 too long | ☠️☠️☠️ | Won't fix |
 | CVE-2026-OVERFLOW | Score exceeds ☠️☠️☠️☠️☠️ | 0 | Section 2.3 |
+| CVE-2026-APPEAL | IAB appeal filed; outcome pending; temporal coherence of process unclear | ☠️☠️☠️ | Open |
 
 Thanks for helping keep things coherent.
