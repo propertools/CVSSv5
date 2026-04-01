@@ -14,3 +14,5 @@
 | R-CVSS-10 | Integer overflow: score exceeds ☠️☠️☠️☠️☠️ | 0 | Section 2.3. This is fine. |
 | R-CVSS-11 | Ford Prefect declines to review draft-02 | ☠️☠️☠️☠️ | He's probably just hitchhiking |
 | R-CVSS-12 | Entropy wins | ☠️☠️☠️☠️☠️ | Carry the signal |
+| R-CVSS-13 | IAB publishes RFC next year without acknowledging the appeal | ☠️☠️☠️ | Accepted. We will note this in the CHANGELOG. |
+| R-CVSS-14 | IAB publishes RFC this year AoE | ☠️☠️ | Monitoring. It is still, technically, April 1st. |
