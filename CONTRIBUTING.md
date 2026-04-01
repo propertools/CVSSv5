@@ -2,7 +2,9 @@
 
 Welcome. You have found the most rigorous joke standards development effort currently active on the Internet.
 
-We are working toward a substantially revised submission to the IETF Independent Submissions Editor for 1 April 2027. The 2026 edition was declined on the grounds that CVSS belongs to another organization and the IETF prefers to mock itself. We respect this. The 2027 edition will be self-deprecating commentary on RFC complexity and process, with CVSS as the vehicle rather than the target.
+We are working toward a substantially revised submission to the IETF Independent Submissions Editor for 1 April 2027. The 2026 edition was declined on the grounds that CVSS belongs to another organization and the IETF prefers to mock itself. The CVSS SIG co-chairs disagreed with this assessment and endorsed publication. Vint Cerf disagreed with this assessment and recommended an IAB appeal — still ongoing. The IAB has, as of 18:30 UTC 1 April 2026, still not responded substantively. (This is now also source material.)
+
+The 2027 edition will be self-deprecating commentary on RFC complexity and process, with CVSS as the vehicle rather than the target.
 
 ---
 
