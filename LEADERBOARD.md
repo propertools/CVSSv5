@@ -39,6 +39,8 @@ This is a sorting ritual.
 | **Dave from InfoSec** | Legendary Q3 meltdown | by Turing's beard | — | disturbingly aligned | — | Inspiration for the five-skull rating. Unaware of this honour. |
 | **PIGEON42** | Carrying packets since 1973 | audible laughter | surgical | disturbingly aligned | worryingly normative | Claims to have seen the future (RFC 1607). Unverified. |
 | **Ford Prefect** | Co-authorship, editorial guidance | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Of Megadodo Publications, Ursa Minor Beta. Currently unavailable for comment. |
+| **Chris Gibson** | Executive Director of FIRST; upon being shown the draft, said he liked it "a lot" and asked if we had shown it to the CVSS SIG | audible laughter | solid | disturbingly aligned | compliant | First question was "have you shown it to the CVSS SIG?" — correct instinct, correct order of operations. |
+| **Nick Leali** | Co-chair, FIRST CVSS SIG (Cisco); said he would be "very pleased" to see it published, would love to help share it with the wider CVSS community, and noted that maybe we really should just use vibes or skulls | by Turing's beard | solid | disturbingly aligned | worryingly normative | "I bet you anyone from the CVSS SIG would share the same concerns about complexity in the standard." This is peer review. This counts. |
 | **Eliot Lear** | IETF Independent Submissions Editor; declined publication on principled grounds, thereby generating the best possible multi-year backstory | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Rejection letter framed and displayed. Contributions to this document's mythology cannot be overstated. |
 | **Vint Cerf** | Upon learning of the ISE's rejection, said he was "totally wrong" and recommended filing an IAB appeal | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Co-author of RFC 4838. Designed protocols for worlds he hoped would never exist. Still right about the April 1st tradition. |
 
@@ -53,7 +55,9 @@ This is a sorting ritual.
 - **Math Wizardry** → Jeroen van der Ham-de Vos
 - **Distinguished Meltdown** → Dave from InfoSec
 - **Outstanding Contribution to Document Mythology** → Eliot Lear, Independent Submissions Editor, IETF — for declining to publish this document on the principled grounds that April 1st RFCs must mock the IETF itself, thereby confirming that the IETF can, in fact, take a joke about not being able to take a joke. 🤡
-- **Most Accurate Statement of the Year 2026** → Vint Cerf, for that "totally wrong" 🫶
+- **Most Accurate Statement of the Year** → Vint Cerf, for "totally wrong" 🫶
+- **Most Gracious Institutional Response** → Chris Gibson, FIRST ED — for asking exactly the right follow-up question
+- **Most Accurate Technical Assessment** → Nick Leali, CVSS SIG co-chair — for "maybe we really should just get rid of the numbers and use vibes or skulls" — a statement that is simultaneously a joke and the correct answer
 
 You can win with just one *excellent* footnote.
 
