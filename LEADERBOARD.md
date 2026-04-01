@@ -40,6 +40,7 @@ This is a sorting ritual.
 | **PIGEON42** | Carrying packets since 1973 | audible laughter | surgical | disturbingly aligned | worryingly normative | Claims to have seen the future (RFC 1607). Unverified. |
 | **Ford Prefect** | Co-authorship, editorial guidance | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Of Megadodo Publications, Ursa Minor Beta. Currently unavailable for comment. |
 | **Eliot Lear** | IETF Independent Submissions Editor; declined publication on principled grounds, thereby generating the best possible multi-year backstory | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Rejection letter framed and displayed. Contributions to this document's mythology cannot be overstated. |
+| **Vint Cerf** | Upon learning of the ISE's rejection, said he was "totally wrong" and recommended filing an IAB appeal | by Turing's beard | surgical | disturbingly aligned | worryingly normative | Co-author of RFC 4838. Designed protocols for worlds he hoped would never exist. Still right about the April 1st tradition. |
 
 ---
 
@@ -52,6 +53,7 @@ This is a sorting ritual.
 - **Math Wizardry** → Jeroen van der Ham-de Vos
 - **Distinguished Meltdown** → Dave from InfoSec
 - **Outstanding Contribution to Document Mythology** → Eliot Lear, Independent Submissions Editor, IETF — for declining to publish this document on the principled grounds that April 1st RFCs must mock the IETF itself, thereby confirming that the IETF can, in fact, take a joke about not being able to take a joke. 🤡
+- **Most Accurate Statement of the Year 2026** → Vint Cerf, for that "totally wrong" 🫶
 
 You can win with just one *excellent* footnote.
 
